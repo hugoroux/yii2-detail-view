@@ -809,7 +809,7 @@ class DetailView extends \yii\widgets\DetailView
         if (($footer = $this->renderPanelTitleBar('footer')) !== false) {
             $panel['footer'] = $footer;
         }
-        $panel['preBody'] = $this->renderAlertBlock() . "\n" . $content;
+        $panel['preBody'] = $content;
         return Html::panel($panel, $type);
     }
 
