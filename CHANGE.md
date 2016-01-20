@@ -1,11 +1,48 @@
-version 1.7.2
-=============
-**Date:** 06-Jun-2015
+Change Log: `yii2-detail-view`
+==============================
+
+## Version 1.7.4
+
+**Date:** 11-Jan-2016
+
+- (bug #86): Fix Inflector class dependency.
+- (enh #87): Add ability to show values as not set when empty.
+- (enh #89): Fix documentation for type to correct constant.
+- (enh #93): Add Polish translations.
+- (enh #97): Enhance widget to parse visible attributes correctly.
+- (enh #98): CSS Styling enhancements for `table-condensed`.
+- (enh #101): Enhance plugin and widget with destroy method.
+- (enh #102): Enhancements for PJAX reinitialization. Complements enhancements in kartik-v/yii2-krajee-base#52 and kartik-v/yii2-krajee-base#53.
+
+## Version 1.7.3
+
+**Date:** 13-Sep-2015
+
+- (bug #73): Parse `visible` attribute setting.
+- (enh #76): Better parsing of xhr.responsetext.
+- (enh #77): Enhance default styling of toolbar buttons.
+- (enh #78): Fix missing asset dependencies for tooltips.
+- (enh #80): Allow configuration of ActiveForm class.
+- (bug #81): Correct tooltip asset registration.
+- (bug #82, #83): Enhance `rowOptions` and `hideIfEmpty`.
+- (enh #84): Allow DetailView to be readonly without form for `enableEditMode = false`.
+
+## Version 1.7.2
+
+**Date:** 23-Aug-2015
 
 - (enh #60): Add Czech translations.
+- (enh #62): Add Spanish translations.
+- (enh #65): Add Indonesian translations.
+- (enh #67): Add Chinese translations.
+- (enh #69): Allow DetailView to be configured for multiple models.
+    - new `viewModel` and `editModel` properties at attributes level for each attribute
+      which will override the `model` property at the widget level.
+- (enh #70): Add `hideAlerts` property to control display of alerts.
+- (enh #72): Enhancement to support children attributes and multi columnar layouts.
 
-version 1.7.1
-=============
+## Version 1.7.1
+
 **Date:** 22-May-2015
 
 - Use `\kartik\base\WidgetTrait` to initialize krajee plugin.
@@ -43,8 +80,8 @@ version 1.7.1
 - (enh #58): Correct button styling on hover due to tooltips side effect.
 - (bug #59): Fix parsing of panel `headingOptions` and `footerOptions`.
 
-version 1.7.0
-=============
+## Version 1.7.0
+
 **Date:** 02-Mar-2015
 
 - (enh #17): Ability to hide rows with empty elements.
@@ -73,16 +110,16 @@ version 1.7.0
 - (enh #41): Auto set to edit mode when model has validation errors.
 - (enh #42): Improve validation to retrieve the right translation messages folder.
 
-version 1.6.0
-=============
+## Version 1.6.0
+
 **Date:** 28-Jan-2015
 
 - (enh #27): Romanian translation added.
 - (bug #28): Revert #20 Undo fix for switch inputs addressed now by plugin upgrade.
 - (enh #29): Russian translation added.
 
-version 1.5.0
-=============
+## Version 1.5.0
+
 **Date:** 12-Jan-2015
 
 - (bug #23): Fix HTML5 Input type initialization.
@@ -91,15 +128,15 @@ version 1.5.0
 - Code formatting updates as per Yii2 standards.
 - Revamp to use new Krajee base TranslationTrait.
 
-version 1.4.0
-=============
+## Version 1.4.0
+
 **Date:** 06-Dec-2014
 
 - bug #16: Correct method for validating input widget using `\kartik\base\Config`.
 - bug #20: Reinitialize Switch Inputs in detail view edit mode.
 
-version 1.3.0
-=============
+## Version 1.3.0
+
 **Date:** 10-Nov-2014
 
 - PSR4 alias change
@@ -108,23 +145,23 @@ version 1.3.0
 - Set release to stable
 - Delete button default option enhancements
 
-version 1.2.0
-=============
+## Version 1.2.0
+
 **Date:** 19-Oct-2014
 
 - enh #13: Improve hide of elements and remove fade delay at initialization
 - enh #14: Add various container properties to configure HTML options
 - enh #15: Refactor and optimize client code
 
-version 1.1.0
-=============
+## Version 1.1.0
+
 **Date:** 15-Jul-2014
 
 - enh #10: Added animation to fade out between view and edit modes
 - PSR4 alias change
 
-version 1.0.0
-=============
+## Version 1.0.0
+
 **Date:** 15-May-2014
 
 - Initial release
